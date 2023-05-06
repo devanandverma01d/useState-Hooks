@@ -1,5 +1,10 @@
+import React from 'react'
 import './App.css';
-import CaseFifth from './Hooks/UseState/CaseThird';
+import UeCaseOne from './Hooks/useEffectHooks/UeCaseOne';
+//import UeCaseTwo from './Hooks/useEffectHooks/UeCaseOne';
+
+
+//import CaseFifth from './Hooks/UseState/CaseThird';
 //import CaseForth from './Hooks/UseState/CaseThird';
 //import CaseThird from './Hooks/UseState/CaseThird';
 //import { CaseTwo } from './Hooks/UseState/CaseTwo';
@@ -7,8 +12,8 @@ import CaseFifth from './Hooks/UseState/CaseThird';
 
 function App() {
   return (
-    <div>
-     <CaseFifth />
+    <div className='App'>
+      <UeCaseOne />
     </div>
   );
 }

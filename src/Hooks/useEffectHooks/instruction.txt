@@ -1,0 +1,51 @@
+                            ***********************useEffect Hooks**********************
+                    ===============================================================================
+
+Q1. What is "useEffect" Hooks?
+
+* "effect" means- Side Effect.
+* The "useEffect" Hook allows us to perform side effects in our functional components.
+* In short, useEffect is a tool that lets us interact with the outside world like- making a request 
+        to an API for data from backend server.
+
+* Some examples of side effects are: fetching data, directly updating the DOM, and timers.
+
+* "useEffect" accepts two arguments.
+        1. A call back function and
+        2. A dependency array. 
+
+
+=================================================================================================================
+
+Q2. What is the syntax of useEffect hooks.
+*Syntax of useEffect Hook is-
+
+        useEffect(<function>, <dependency>)       
+        useEffect(()=>{}, [])  
+
+* The second argument is optional.
+
+================================================================================================================
+
+Q3. Why we use useEffect hooks?
+* If we want to perform some opertaion/effect after page render then we can go with useEffect hooks.
+
+=================================================================================================================
+
+Q4. useEffect Hook is similar to what?
+* useEffect hooks perfornm same functionality as componentDidMount,componentDidUpdate,componentWillUnmount
+  do combinally in class component.
+
+==================================================================================================================
+
+Q5. When useEffect will triggers?
+* The useEffect hook runs after first render and also runs on every render update. That means that when the state
+ changes, a render happens, which then triggers another effect.
+
+ =================================================================================================================
+
+ Q6. How many times we can call useEffect hooks?
+* We can call useEffect hooks as many times as we need.
+
+=====================================================================================================================
+

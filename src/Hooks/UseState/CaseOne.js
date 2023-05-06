@@ -1,8 +1,8 @@
-// Case 1.---> 
+import React, { useState } from 'react'// Case 1.---> 
 //             Use the state variable in the rendered component.
 
 // Note- When a state is updated, the entire state gets overwritten.
-import React, { useState } from 'react'
+
 
 export const CaseOne = () => {
   //2.1 Hooks area
