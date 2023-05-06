@@ -24,4 +24,16 @@ Q3. whay we use useState Hook?
 
 =================================================================================================================
 
-Q4.
+Q4.what can state hold?
+* useState can holds- String,number,boolean,array,object etc.
+
+=================================================================================================================
+Q5. What is the Syntax of "useState" hook?
+syntax-
+        import {useState} from 'react';
+
+        export const MyUseStateHook=()=>{
+            const[variableName,setVariableName]=useState(initialValue)  // initialize the state at the top of the component.
+        }
+        
+        

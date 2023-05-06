@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import CaseFifth from './Hooks/UseState/CaseThird';
+//import CaseForth from './Hooks/UseState/CaseThird';
+//import CaseThird from './Hooks/UseState/CaseThird';
+//import { CaseTwo } from './Hooks/UseState/CaseTwo';
+//import {CaseOne} from './Hooks/UseState/CaseOne';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CaseFifth />
     </div>
   );
 }
