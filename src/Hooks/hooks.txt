@@ -1,0 +1,31 @@
+                                    *********HOOKS********
+                                    ======================
+Q1. What is Hooks?
+
+* Hooks were introduced in React version 16.8. Hooks are basically a function that allow function components to have access to 
+  state,lifecycle method and other React features inside the functional component.Because of this, class components are generally no longer used.
+
+* Hooks are the functions which "hook into" React state and lifecycle features from function components.
+========================================================================================================================================
+
+Q2. What are the uses of Hooks?
+
+*uses-- If we write a functional component and want to add some state to it, then we can  go with Hooks.
+
+* Functional components we were not able to manage state at component level.
+
+* Hooks allow the functional component to have access/manage to state and lifecycle method inside functional cmponent
+    without writing class Component.
+
+==========================================================================================================================================
+
+Q3. What are the rules related to hooks?
+
+* 1. Hooks can only be called inside React functional components.
+* 2. Hooks can only be called at the top level of the components.
+* 3. Hooks can't be called inside loop, conditions or nested functions.
+* 4. We can call Hooks only from React fuctions not from regular javaScript functions.
+
+===========================================================================================================================================
+ 
+

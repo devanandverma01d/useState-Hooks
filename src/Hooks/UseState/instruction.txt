@@ -1,0 +1,27 @@
+                                    ***************USESTATE***************
+                                ================================================
+
+Q1.What is State?
+
+* Hook "State" is a new way of declaring a state in React applications.
+    "State" means- data or properties.
+
+==================================================================================================================
+
+Q2. What is useState hooks?
+
+* The React useState Hook allows us to track state in a function component.
+
+* "useState" accepts an initial state and returns an array of two elements/values:
+1. The current state.
+2. A function that updates the state.
+
+=================================================================================================================
+
+Q3. whay we use useState Hook?
+1. useState Hooks is used for setting and retrieving state inside functional component.
+2. We initialize our state by calling "useState" in our function component.
+
+=================================================================================================================
+
+Q4.
