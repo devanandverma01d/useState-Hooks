@@ -7,8 +7,8 @@ import CaseFifth from './Hooks/UseState/CaseThird';
 
 function App() {
   return (
-    <div className="App">
-      <CaseFifth />
+    <div>
+     <CaseFifth />
     </div>
   );
 }
