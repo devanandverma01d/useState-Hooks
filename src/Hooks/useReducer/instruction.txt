@@ -1,0 +1,52 @@
+                        
+                        ******************useReducer Hook*******************
+                ====================================================================
+
+Q1. What is useReducer? 
+    * It is a hook which is used for state management in react, it is an alternate to the useState hook. 
+      useState is built using useReducer hook. useState uses useReducer internally.
+    
+===============================================================================================================
+
+Q2. What is the difference between useState and useReducer hooks?
+    * useReducer is usually preferable to useState when we have complex state logic that involves 
+      multiple sub-values or when the next state depends on the previous one. 
+      useReducer also lets us optimize performance for components that trigger deep updates
+      because we can pass dispatch down instead of callbacks.
+
+===============================================================================================================
+
+Q3. What is the use of useReducer hook?
+    * useReducer is used to store and update states, just like the useState Hook. 
+      useReducer is a method which takes 2 arguments first arg is a reducer function and second arg is initial value, 
+      and returns an array with two values newState and dispatch.
+
+===============================================================================================================
+
+Q4. What is the syntax of useReducer hook? 
+
+    * const [newState,dispatch]=useReducer(reducer,initialValue).
+
+    * reducer--> "Reducer" is a pure function, which contains two values- currentState and action and returns newState.
+      Syntax of reducer-
+                        * const reducer=(currentState,action)=>{
+                            return newState
+                        }
+ 
+                        const [newState,dispatch]=useReducer(reducer,initialValue).
+
+    * Where as "dispatch" carries dispatched data to the reducer's action argument.
+
+    * initialValue represents currentState and currentState represent newState.
+
+=================================================================================================================
+
+Q5. Could we use useReducer instead of useState hook?
+    * We could use useReducer hook for everything that we can do with useState hook.
+
+=================================================================================================================
+
+Q6. What is pure function?
+    * Pure function is function that returns same output if same argument is passed, and pure function does not
+      produce any side effect.
+    Note- Reducer is pure function.

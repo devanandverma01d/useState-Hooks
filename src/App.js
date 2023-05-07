@@ -1,6 +1,7 @@
 import React, { createContext } from 'react'
 import './App.css';
-import UseContextA from './Hooks/useContext/UseContextA';
+import UseReducer from './Hooks/useReducer/UseReducer';
+//import UseContextA from './Hooks/useContext/UseContextA';
 //import UeCaseOne from './Hooks/useEffectHooks/UeCaseOne';
 //import UeCaseTwo from './Hooks/useEffectHooks/UeCaseOne';
 //import CaseFifth from './Hooks/UseState/CaseThird';
@@ -14,11 +15,9 @@ export const NameContext=createContext();
 export const SurnameContext=createContext();
 function App() {
   return (
-    <NameContext.Provider value={"Devanand"}>
-      <SurnameContext.Provider value={"Verma"}>
-        <UseContextA />
-      </SurnameContext.Provider>
-    </NameContext.Provider>
+    <>
+      <UseReducer />
+    </>
   );
 }
 
